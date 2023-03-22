@@ -7,7 +7,7 @@ const SideBar = () => {
   return (
     <div
       className={`${
-        !drawerOpen ? "w-48 sm:w-56" : "w-0"
+        drawerOpen ? "w-48 sm:w-56" : "w-0"
       } rounded-tr-[40px] rounded-br-[40px] fixed h-screen z-[1300] top-0 left-0 bg-secondary overflow-hidden duration-500 ease-in-out text-base text-white font-[Poppins]`}
     >
       <div className="px-7">

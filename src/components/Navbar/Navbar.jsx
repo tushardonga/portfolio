@@ -1,5 +1,5 @@
-import React, { useContext, useState } from "react";
-import { IoMenuSharp, IoHomeSharp } from "react-icons/io5";
+import React, { useContext } from "react";
+import { IoMenuSharp } from "react-icons/io5";
 import { GlobalContext } from "../../context/GlobalContext";
 import "./Navbar.css";
 
@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="flex items-center w-full h-[6.5rem] absolute justify-center z-[99]">
       <div className="flex items-center justify-between w-full px-12 mt-4">
-        <h1 className="text-pfBlack font-[BestermindRegular] text-4xl select-none font-bold">
+        <h1 className="text-secondary font-[BestermindRegular] text-4xl select-none font-bold">
           Tushar Donga
         </h1>
         <IoMenuSharp

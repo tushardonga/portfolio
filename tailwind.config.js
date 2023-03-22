@@ -4,11 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        jost: ["Jost", "sans-serif"],
-        qwigley: ["Qwigley", "cursive"],
+        bigShoulders: ["Big Shoulders Text", "sans-serif"],
       },
       colors: {
-        pfBlack: "rgb(33, 33, 33)",
         type: "light",
         primary: "#000000",
         primary400: "#000000",

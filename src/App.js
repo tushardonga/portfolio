@@ -1,8 +1,14 @@
-import { useContext } from "react";
 import "./App.css";
-import { Navbar } from "./components";
-import Landing from "./components/Landing/Landing";
-import SideBar from "./components/SideBar/SideBar";
+import {
+  About,
+  Landing,
+  Navbar,
+  SideBar,
+  Education,
+  Skills,
+  Experience,
+  Projects,
+} from "./components";
 
 function App() {
   return (
@@ -10,6 +16,11 @@ function App() {
       <Navbar />
       <SideBar />
       <Landing />
+      <About />
+      <Education />
+      <Skills />
+      <Experience />
+      <Projects />
     </div>
   );
 }

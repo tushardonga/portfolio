@@ -1,0 +1,11 @@
+.singleProject:hover .project--desc {
+  transform: translate(-2%, 40%);
+}
+
+.singleProject:hover .project--lang {
+  transform: translateX(0);
+}
+
+.singleProject:hover .project--showcaseBtn a:nth-child(2) {
+  transform: translateX(-140px) scale(1.1) !important;
+}
