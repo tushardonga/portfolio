@@ -1,18 +1,15 @@
-import { Helmet } from "react-helmet";
-import Bio from "./components/Bio";
-import Layout from "./components/Layout";
-import { headerData } from "./data/headerData";
+import { useContext } from "react";
 import "./App.css";
+import { Navbar } from "./components";
+import Landing from "./components/Landing/Landing";
+import SideBar from "./components/SideBar/SideBar";
 
 function App() {
   return (
-    <div>
-      <Helmet>
-        <title>{headerData.name} - Porfolio</title>
-      </Helmet>
-      <Layout>
-        <Bio />
-      </Layout>
+    <div className="app">
+      <Navbar />
+      <SideBar />
+      <Landing />
     </div>
   );
 }
