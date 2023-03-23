@@ -1,10 +1,12 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
+import { Events, Link } from "react-scroll";
 import { GlobalContext } from "../../context/GlobalContext";
 import { headerData } from "../../data";
 import SocialMediaLinks from "./SocialMediaLinks";
 
 const MainHeader = () => {
   const { drawerOpen } = useContext(GlobalContext);
+
   return (
     <div className="flex items-center justify-center h-screen">
       <div className="h-full relative flex items-center justify-center">
@@ -33,9 +35,18 @@ const MainHeader = () => {
               <button className="text-primary rounded-[30px] w-[180px] sm:w-[150px] text-base font-medium h-[50px] border-[3px] border-primary hover:bg-tertiary hover:text-secondary hover:border-tertiary">
                 Download CV
               </button>
-              <button className="text-secondary rounded-[30px] w-[180px] sm:w-[150px] text-base font-medium h-[50px] bg-primary border-[3px] border-primary hover:bg-secondary hover:text-tertiary hover:border-tertiary">
-                Contact
-              </button>
+              <Link
+                activeClass="active"
+                to="Contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                <button className="text-secondary rounded-[30px] w-[180px] sm:w-[150px] text-base font-medium h-[50px] bg-primary border-[3px] border-primary hover:bg-secondary hover:text-tertiary hover:border-tertiary">
+                  Contact
+                </button>
+              </Link>
             </div>
           </div>
         </div>

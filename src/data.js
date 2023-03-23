@@ -1,3 +1,19 @@
+import { FiAtSign, FiPhone } from "react-icons/fi";
+import {
+  FaTwitter,
+  FaLinkedinIn,
+  FaGithub,
+  FaBloggerB,
+  FaStackOverflow,
+  FaInstagram,
+  FaFacebook,
+  FaUser,
+} from "react-icons/fa";
+import { BsCodeSquare } from "react-icons/bs";
+import { IoHomeSharp } from "react-icons/io5";
+import { HiDocumentText } from "react-icons/hi";
+import { MdPhone } from "react-icons/md";
+
 export const headerData = {
   name: "Tushar Donga",
   title: "Frontend Developer",
@@ -93,4 +109,58 @@ export const projectsData = [
     image:
       "https://drive.google.com/uc?export=view&id=1WZq5XxT1qT1DBCa26Zh_zk0pdRIukkzg",
   },
+];
+
+export const contactsData = [
+  { label: "email", value: "tushar.donga.0786@gmail.com", icon: <FiAtSign /> },
+  { label: "phone", value: "+919727808083", icon: <FiPhone /> },
+];
+
+export const socialsData = [
+  {
+    label: "GitHub",
+    url: "https://github.com/tushardonga",
+    icon: <FaGithub aria-label="GitHub" />,
+  },
+  {
+    label: "Facebook",
+    url: "https://www.facebook.com/tushar.donga.98",
+    icon: <FaFacebook aria-label="Facebook" />,
+  },
+  {
+    label: "LinkedIn",
+    url: "https://www.linkedin.com/in/tushar-donga-1091b416a/",
+    icon: <FaLinkedinIn aria-label="LinkedIn" />,
+  },
+  {
+    label: "Instagram",
+    url: "https://www.instagram.com/tushar_m_donga/",
+    icon: <FaInstagram aria-label="Instagram" />,
+  },
+  {
+    label: "Twitter",
+    url: "https://twitter.com/0786tushar",
+    icon: <FaTwitter aria-label="Twitter" />,
+  },
+  {
+    label: "Blogger",
+    url: "https://www.blogger.com/profile/01638296940151288925",
+    icon: <FaBloggerB aria-label="Blogger" />,
+  },
+  {
+    label: "Stack Overflow",
+    url: "https://stackoverflow.com/users/10147342/tushar",
+    icon: <FaStackOverflow aria-label="Stack Overflow" />,
+  },
+];
+
+export const sideBarData = [
+  { label: "Home", icon: <IoHomeSharp className="text-xl lg:text-2xl" /> },
+  { label: "About", icon: <FaUser className="text-xl lg:text-2xl" /> },
+  {
+    label: "Education",
+    icon: <HiDocumentText className="text-xl lg:text-2xl" />,
+  },
+  { label: "Skills", icon: <BsCodeSquare className="text-xl lg:text-2xl" /> },
+  { label: "Contact", icon: <MdPhone className="text-xl lg:text-2xl" /> },
 ];

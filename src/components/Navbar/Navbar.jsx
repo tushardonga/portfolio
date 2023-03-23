@@ -8,12 +8,12 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center w-full h-[6.5rem] absolute justify-center z-[99]">
-      <div className="flex items-center justify-between w-full px-12 mt-4">
+      <div className="flex items-center justify-between w-full px-8 max-[1100]:px-12 mt-4">
         <h1 className="text-secondary font-[BestermindRegular] text-4xl select-none font-bold">
           Tushar Donga
         </h1>
         <IoMenuSharp
-          className="text-4xl cursor-pointer text-tertiary hover:text-primary nav-hamburger-icon"
+          className="text-[2rem] sm:text-[2.5rem] cursor-pointer text-tertiary hover:text-primary nav-hamburger-icon"
           onClick={setHandleDrawer}
           aria-label="Menu"
         />

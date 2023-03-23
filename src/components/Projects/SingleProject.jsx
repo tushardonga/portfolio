@@ -20,7 +20,7 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image }) => {
             {name}
           </h2>
           <img
-            className="w-full h-3/5 transition-opacity hover:opacity-30 select-none"
+            className="w-full h-3/5 transition-opacity hover:opacity-30 select-none rounded-lg"
             src={image ? image : placeholder}
             alt={name}
           />

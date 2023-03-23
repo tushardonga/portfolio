@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { Element, Events } from "react-scroll";
 import "./App.css";
 import {
   About,
@@ -8,6 +10,8 @@ import {
   Skills,
   Experience,
   Projects,
+  Contacts,
+  Footer,
 } from "./components";
 
 function App() {
@@ -15,12 +19,24 @@ function App() {
     <div className="app">
       <Navbar />
       <SideBar />
-      <Landing />
-      <About />
-      <Education />
-      <Skills />
+      <Element name="Home" className="Home">
+        <Landing />
+      </Element>
+      <Element name="About" className="About">
+        <About />
+      </Element>
+      <Element name="Education" className="Education">
+        <Education />
+      </Element>
+      <Element name="Skills" className="Skills">
+        <Skills />
+      </Element>
       <Experience />
       <Projects />
+      <Element name="Contact" className="Contact">
+        <Contacts />
+      </Element>
+      <Footer />
     </div>
   );
 }
