@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Project Description
+
+This project is a single-page web application built using ReactJS and styled using Tailwind CSS. It was created as a portfolio website to showcase my skills and experience to potential clients or employers.
+
+## Technologies Used
+
+- ReactJS: A popular JavaScript library for building user interfaces.
+- Tailwind CSS: A utility-first CSS framework for quickly styling web applications.
+- Create React App: A tool for setting up a modern React web application with zero configuration.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Clone the repository to your local machine using Git.
+- Open a terminal window in the project directory and run the command npm install to install the project dependencies.
+- Run the command npm start to start the development server and launch the application in your browser.
 
 ## Available Scripts
 
@@ -13,11 +26,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
