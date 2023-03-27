@@ -43,7 +43,7 @@ export const educationData = [
   {
     id: 2,
     institution: "Goverment Engineering College Rajkot",
-    course: "Bachelor of Computer Engineering",
+    course: "Bachelor of engineering - Computer engineering",
     startYear: "2015",
     endYear: "2019",
   },
