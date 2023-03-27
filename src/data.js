@@ -13,20 +13,22 @@ import { BsCodeSquare } from "react-icons/bs";
 import { IoHomeSharp } from "react-icons/io5";
 import { HiDocumentText } from "react-icons/hi";
 import { MdPhone } from "react-icons/md";
+import resume from "./assets/pdf/Resume.pdf";
 
 export const headerData = {
   name: "Tushar Donga",
   title: "Frontend Developer",
+  resumePdf: resume,
   desciption:
-    "There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
+    "Goal oriented, self-motivated and committed to the successful outcome of the projects, Willing to work hard and have great desire to learn at my profession and want to give my best to my position as developer.",
 };
 
 export const aboutData = {
   title: "Who I am",
   description1:
-    "My name's Jane. I'm a web designer and developer based in Southampton, UK.",
+    "My name's Tushar. I'm a Frontend developer based in Ahmedabad, India.",
   description2:
-    "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    "Experienced ReactJS developer with 4+ years of hands-on experience in developing responsive web applications. Proficient in building reusable components and implementing state management using Redux. Skilled in integrating APIs and libraries to deliver seamless user experiences. Strong understanding of JavaScript fundamentals and CSS styling. Seeking to join to leverage experience with JavaScript to impress existing clients and obtain new ones and comfortable working in collaborative team environments.Passionate about staying up-to-date with the latest technologies and continuously improving development processes.",
   image: 2,
 };
 

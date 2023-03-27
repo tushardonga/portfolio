@@ -7,9 +7,9 @@ const Navbar = () => {
   const { setHandleDrawer } = useContext(GlobalContext);
 
   return (
-    <div className="flex items-center w-full h-[6.5rem] absolute justify-center z-[99]">
-      <div className="flex items-center justify-between w-full px-8 max-[1100]:px-12 mt-4">
-        <h1 className="text-secondary font-[BestermindRegular] text-4xl select-none font-bold">
+    <div className="flex items-center w-full h-20 laptop:h-[6.5rem] absolute justify-center z-[99]">
+      <div className="flex items-center justify-between w-full px-8 laptop:px-12 mt-4">
+        <h1 className="text-primary md:text-secondary font-[BestermindRegular] text-3xl laptop:text-4xl select-none font-bold">
           Tushar Donga
         </h1>
         <IoMenuSharp

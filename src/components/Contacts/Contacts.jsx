@@ -22,28 +22,30 @@ const Contacts = () => {
   };
 
   return (
-    <div className="bg-secondary min-h-screen flex flex-col relative">
-      <div className="flex flex-col pt-8 ml-[7%] px-8 pb-12 w-4/5 h-full mt-8">
-        <h2 className="text-primary font-bold text-[3.5rem] mb-8">Contacts</h2>
-        <div className="flex w-full justify-evenly mt-5">
+    <div className="bg-secondary min-h-screen flex flex-col relative font-[Poppins]">
+      <div className="flex flex-col pt-8 laptop:ml-[7%] px-8 pb-12 w-full md:w-4/5 h-full mt-8">
+        <h2 className="text-primary font-bold text-[2.5rem] sm-[3.2rem] tab:text-[3.5rem] mb-8 max-tab:self-center">
+          Contacts
+        </h2>
+        <div className="flex flex-wrap w-full justify-evenly mt-5">
           {contactsData.map((contact) => (
             <a
-              className="flex items-center w-full mb-10"
+              className="flex items-center w-full mb-5 md:mb-10"
               href={contactLink(contact)}
             >
               <div className={detailsIconCss}>{contact.icon}</div>
               {contactDetails(contact.value)}
             </a>
           ))}
-          <div className="flex items-center w-full mb-10">
+          <div className="flex items-center w-full mb-5 md:mb-10">
             <div className={detailsIconCss}>
               <HiOutlineLocationMarker />
             </div>
             {contactDetails("Chankyapuri, Ahmedabad, Gujarat, India - 380061")}
           </div>
         </div>
-        <div>
-          <div className="flex flex-wrap gap-x-4 justify-center items-center w-full my-6">
+        <div className="w-full">
+          <div className="flex flex-wrap max-md:justify-center gap-6 md:gap-x-4 justify-center items-center w-full my-6">
             {socialsData.map((item) => (
               <a
                 href={item.url}
@@ -60,7 +62,7 @@ const Contacts = () => {
       <img
         src={contactsimg}
         alt="contacts"
-        className="absolute right-0 bottom-0 w-72 pointer-events-none"
+        className="absolute right-0 bottom-0 w-72 pointer-events-none max-md:hidden"
       />
     </div>
   );

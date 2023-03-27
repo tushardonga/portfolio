@@ -10,7 +10,7 @@ const SideBar = () => {
   return (
     <div
       className={`${
-        drawerOpen ? "w-72 sm:w-80" : "w-0 px-0"
+        drawerOpen ? "w-72 sm:w-80 overflow-y-auto" : "w-0 px-0"
       } rounded-tr-[40px] rounded-br-[40px] fixed h-screen z-[1300] top-0 left-0 bg-secondary overflow-hidden duration-500 ease-in-out text-white font-[Poppins]  text-2xl`}
     >
       <div className="">
@@ -29,7 +29,7 @@ const SideBar = () => {
         />
       </div>
       <div>
-        <div className="mt-28">
+        <div className="mt-24 tab:mt-28">
           {sideBarData.map((item) => (
             <Link
               activeClass="active"

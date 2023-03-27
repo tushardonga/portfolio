@@ -23,6 +23,16 @@ module.exports = {
         tertiary50: "#21212180",
       },
     },
+    screens: {
+      xsm: "490px",
+      sm: "640px",
+      md: "768px",
+      tab: "990px",
+      lg: "1024px",
+      laptop: "1100px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
   },
   plugins: [],
 };
