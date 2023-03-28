@@ -22,8 +22,8 @@ const Contacts = () => {
   };
 
   return (
-    <div className="bg-secondary min-h-screen flex flex-col relative font-[Poppins]">
-      <div className="flex flex-col pt-8 laptop:ml-[7%] px-8 pb-12 w-full md:w-4/5 h-full mt-8">
+    <div className="bg-secondary flex flex-col relative font-[Poppins] pt-8">
+      <div className="flex flex-col  laptop:ml-[7%] px-8 pb-12 w-full md:w-4/5 h-full mt-8">
         <h2 className="text-primary font-bold text-[2.5rem] sm-[3.2rem] tab:text-[3.5rem] mb-8 max-tab:self-center">
           Contacts
         </h2>

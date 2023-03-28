@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <>
       {projectsData.length > 0 && (
-        <div className="bg-secondary flex items-center flex-col min-h-screen overflow-x-hidden p-8">
+        <div className="bg-secondary flex items-center flex-col overflow-x-hidden p-8">
           <div className="flex justify-center items-center w-full m-4">
             <h2 className="text-primary font-bold text-[2.5rem] sm-[3.2rem] tab:text-[3.5rem] text-center mb-8 max-tab:self-center">
               Projects

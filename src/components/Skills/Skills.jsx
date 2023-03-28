@@ -5,7 +5,7 @@ import { skillsData } from "../../data";
 
 const Skills = () => {
   return (
-    <div className="bg-secondary flex items-center flex-col min-h-full tab:min-h-[60vh] p-2 md:p-4 tab:px-4 tab:pt-8 tab:pb-4 xl:pt-10 xl:px-8 xl:pb-8">
+    <div className="bg-secondary flex items-center flex-col min-h-full p-2 md:p-4 tab:px-4 tab:pt-8 tab:pb-4 xl:pt-10 xl:px-8 xl:pb-8">
       <div className="flex justify-center items-center">
         <h2 className="text-primary font-bold text-[2.5rem] sm-[3.2rem] tab:text-[3.5rem] text-center">
           Skills

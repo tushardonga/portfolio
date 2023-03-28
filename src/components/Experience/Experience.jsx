@@ -5,7 +5,7 @@ import ExperienceCard from "../ExperienceCard";
 
 const Experience = () => {
   return (
-    <div id="experience" className="bg-secondary min-h-full tab:min-h-screen">
+    <div id="experience" className="bg-secondary min-h-full py-8">
       <div className="flex justify-center w-full items-center">
         <div className="p-1 ml-[7%] mt-4 pointer-events-none grow-[0.35] shrink max-tab:hidden">
           <img
