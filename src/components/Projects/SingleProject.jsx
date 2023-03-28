@@ -5,7 +5,7 @@ import placeholder from "../../assets/png/placeholder.png";
 import "./SingleProject.css";
 
 const IconClassName =
-  "cursor-pointer flex items-center justify-center w-10 h-10 rounded-[50%] border-2 border-secondary text-tertiary transition-all duration-200 hover:bg-secondary hover:text-primary hover:scale-110 hover:border-tertiary";
+  "cursor-pointer flex items-center justify-center w-10 h-10 rounded-[50%] border-2 border-secondary text-tertiary transition-all duration-700 hover:bg-secondary hover:text-primary hover:scale-110 hover:border-tertiary";
 
 const SingleProject = ({ id, name, desc, tags, code, demo, image }) => {
   return (
@@ -60,7 +60,7 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image }) => {
         <p className="project--desc bg-tertiary80 text-secondary absolute w-[95%] h-40 left-0 top-0 p-[15px] rounded-tr-[20px] rounded-br-[20px] leading-[110%] flex items-center justify-center -translate-x-[110%] translate-y-[40%] transform duration-700 ease-in-out font-[Poppins]">
           {desc}
         </p>
-        <div className="project--lang bg-tertiary80 text-secondary absolute bottom-5 right-0 w-[140px] text-sm flex justify-center gap-2 flex-col rounded-tl-[10px] rounded-bl-[10px] p-3 translate-x-full transform duration-500 delay-300 ease-in-out font-[Poppins]">
+        <div className="project--lang bg-tertiary80 text-secondary absolute bottom-5 right-0 w-[140px] text-sm flex justify-center gap-2 flex-col rounded-tl-[10px] rounded-bl-[10px] p-3 translate-x-full transform duration-700 ease-in-out font-[Poppins]">
           {tags.map((tag, id) => (
             <span className="font-semibold break-words leading-[100%]" key={id}>
               {tag}

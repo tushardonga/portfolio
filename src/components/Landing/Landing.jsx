@@ -9,7 +9,7 @@ const MainHeader = () => {
 
   return (
     <div className="flex items-center justify-center h-screen">
-      <div className="h-full relative flex flex-col md:flex-row items-center justify-between md:justify-center">
+      <div className="h-full w-full relative flex flex-col md:flex-row items-center justify-between md:justify-center">
         <div className="bg-primary grow shrink basis-[35%] h-[30%] md:h-full flex-initial md:flex items-end">
           <SocialMediaLinks />
         </div>
