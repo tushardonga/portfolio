@@ -1,3 +1,5 @@
+import { useContext } from "react";
+import { createPortal } from "react-dom";
 import { Element } from "react-scroll";
 import "./App.css";
 import {
@@ -11,12 +13,20 @@ import {
   Projects,
   Contacts,
   Footer,
+  BackToTop,
 } from "./components";
+import { GlobalContext } from "./context/GlobalContext";
 
 function App() {
+  const { drawerOpen } = useContext(GlobalContext);
   return (
     <div className="app">
       <Navbar />
+      {drawerOpen &&
+        createPortal(
+          <div className="fixed inset-0 z-50 blur-md bg-black bg-opacity-5 backdrop-blur-lg"></div>,
+          document.body
+        )}
       <SideBar />
       <Element name="Home" className="Home">
         <Landing />
@@ -36,6 +46,7 @@ function App() {
         <Contacts />
       </Element>
       <Footer />
+      <BackToTop />
     </div>
   );
 }
