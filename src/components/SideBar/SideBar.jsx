@@ -7,11 +7,12 @@ import { sideBarData } from "../../data";
 
 const SideBar = () => {
   const { drawerOpen, setHandleDrawer } = useContext(GlobalContext);
+
   return (
     <div
       className={`${
-        drawerOpen ? "w-72 sm:w-80 overflow-y-auto" : "w-0 px-0"
-      } rounded-tr-[40px] rounded-br-[40px] fixed h-screen z-[1300] top-0 left-0 bg-secondary overflow-hidden duration-500 ease-in-out text-white font-[Poppins]  text-2xl`}
+        drawerOpen ? "overflow-y-auto translate-x-0" : "px-0 -translate-x-full"
+      } rounded-tr-[40px] w-72 sm:w-80 rounded-br-[40px] fixed h-screen z-[1300] top-0 left-0 bg-secondary overflow-hidden transition  duration-500 ease-in-out text-white font-[Poppins] text-2xl`}
     >
       <div className="">
         <MdClose

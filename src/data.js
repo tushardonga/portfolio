@@ -79,13 +79,13 @@ export const experienceData = [
     startYear: "2021",
     endYear: "2023",
   },
-  // {
-  //   id: 3,
-  //   company: "Asctics",
-  //   jobtitle: "Senior Frontend Developer",
-  //   startYear: "2023",
-  //   endYear: "Present",
-  // },
+  {
+    id: 3,
+    company: "Asctics",
+    jobtitle: "Senior Frontend Developer",
+    startYear: "2023",
+    endYear: "Present",
+  },
 ];
 
 export const projectsData = [
