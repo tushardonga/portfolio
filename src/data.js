@@ -81,7 +81,7 @@ export const experienceData = [
   },
   {
     id: 3,
-    company: "Asctics",
+    company: "Astics Techlab",
     jobtitle: "Senior Frontend Developer",
     startYear: "2023",
     endYear: "Present",
