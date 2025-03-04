@@ -41,7 +41,7 @@ const Contacts = () => {
             <div className={detailsIconCss}>
               <HiOutlineLocationMarker />
             </div>
-            {contactDetails("Chankyapuri, Ahmedabad, Gujarat, India - 380061")}
+            {contactDetails("Visavadar, Junagadh, Gujarat, India - 362130")}
           </div>
         </div>
         <div className="w-full">

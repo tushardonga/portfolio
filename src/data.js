@@ -28,7 +28,7 @@ export const aboutData = {
   description1:
     "My name's Tushar. I'm a Frontend developer based in Ahmedabad, India.",
   description2:
-    "Experienced ReactJS developer with 4+ years of hands-on experience in developing responsive web applications. Proficient in building reusable components and implementing state management using Redux. Skilled in integrating APIs and libraries to deliver seamless user experiences. Strong understanding of JavaScript fundamentals and CSS styling. Seeking to join to leverage experience with JavaScript to impress existing clients and obtain new ones and comfortable working in collaborative team environments.Passionate about staying up-to-date with the latest technologies and continuously improving development processes.",
+    "Experienced ReactJS developer with 5+ years of hands-on experience in developing responsive web applications. Proficient in building reusable components and implementing state management using Redux. Skilled in integrating APIs and libraries to deliver seamless user experiences. Strong understanding of JavaScript fundamentals and CSS styling. Seeking to join to leverage experience with JavaScript to impress existing clients and obtain new ones and comfortable working in collaborative team environments.Passionate about staying up-to-date with the latest technologies and continuously improving development processes.",
   image: 2,
 };
 
